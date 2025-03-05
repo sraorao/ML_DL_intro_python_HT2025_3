@@ -1,0 +1,14 @@
+name: deeplearning
+channels:
+ - conda-forge
+
+dependencies:
+ - pytorch 
+ - torchvision
+ - pandas 
+ - scikit-learn 
+ - matplotlib
+ - seaborn
+ - opencv
+ - jupyter
+
