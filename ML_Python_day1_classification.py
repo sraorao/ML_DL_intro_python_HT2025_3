@@ -27,7 +27,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 import os
 print("Current Working Directory:", os.getcwd())
-os.chdir('ML_DL_intro_python_HT2025-main')
+os.chdir('ML_DL_intro_python_HT2025_3-main')
 
 # 2. Load, explore and prepare the dataset
 url = "https://raw.githubusercontent.com/selva86/datasets/master/BreastCancer.csv"
