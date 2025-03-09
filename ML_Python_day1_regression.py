@@ -24,7 +24,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # 2. Set working directory, load, explore and prepare the dataset
-os.chdir('/Users/irina/Downloads/ML_DL_intro_python_HT2025-main')
+os.chdir('ML_DL_intro_python_HT2025_3-main')
 df = pd.read_csv('owid_covid_for_ML_short.csv')
 print("Total data points",df.shape[0])
 print("Total number of features(as number of columns) are ", df.shape[1])
